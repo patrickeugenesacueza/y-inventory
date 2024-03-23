@@ -2,6 +2,7 @@ import React from "react";
 import NavLogin from "./NavLogin";
 import Footer from "./Footer";
 import Login from "../pages/Login";
+import SignUp from "../pages/SignUp";
 
 export default function Nav() {
   return (
@@ -10,7 +11,8 @@ export default function Nav() {
         <NavLogin />
       </div>
       <div className="flex-grow mt-[10em]">
-        <Login />
+        {/* <Login /> */}
+      <SignUp/>
       </div>
       <div>
         <Footer />

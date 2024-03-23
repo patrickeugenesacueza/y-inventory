@@ -2,7 +2,7 @@ import React from "react";
 import Input from "../components/Input";
 import Button from "../components/Button";
 import AccountSeperator from "../components/AccountSeperator";
-export default function Login() {
+export default function SignUp() {
   return (
     <>
       <div className="text-center px-[1em]">
