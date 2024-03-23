@@ -1,7 +1,7 @@
 import React from "react";
 import Input from "../components/Input";
 import Button from "../components/Button";
-import AccountSeperator from "../components/AccountSeperator";
+import AccountSeperator from "../components/AccountSeperatorLogin";
 export default function Login() {
   return (
     <>
