@@ -1,5 +1,6 @@
 import React from "react";
 import Input from "../components/Input";
+import Button from "../components/Button";
 export default function Login() {
   return (
     <>
@@ -14,6 +15,11 @@ export default function Login() {
             placeholder="password"
             editableClassName="h-[5vh] text-blue-500 mt-[1em]"
           />
+          <Button
+            customClass="w-full h-[4vh] bg-[#2587be] rounded-[2em] text-white font-[500] text-lg mt-[1.5em]"
+            buttonName="Submit"
+          />
+          
         </div>
       </div>
     </>
