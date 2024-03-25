@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 export default function Login() {
   return (
     <>
-      <div className="h-[90vh] text-center py-[10em] px-[1em] md:pb-[1em] md:px-[10em] lg:px-[20em] xl:px-[35em] ">
+      <div className="h-[90vh] text-center py-[10em] md:pb-[1em] px-[1em] md:px-[15em] lg:px-[20em] xl:px-[30em] 2xl:px-[40em] ">
         <div className="md:border-[1.5px] md:border-[#b8cbd4] md:p-[2em] md:rounded-[1em]">
           <span className="text-center text-3xl">Log in to Y-Inventory</span>
           <Input
