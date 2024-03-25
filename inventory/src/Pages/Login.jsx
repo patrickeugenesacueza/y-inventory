@@ -5,7 +5,7 @@ import AccountSeperator from "../components/AccountSeperatorLogin";
 export default function Login() {
   return (
     <>
-      <div className="text-center py-[3em] px-[1em] md:py-[3em] md:px-[10em] lg:px-[20em] xl:px-[35em]">
+      <div className="text-center py-[3em] px-[1em] md:pb-[3em] md:px-[10em] lg:px-[20em] xl:px-[35em]">
         <div className="md:border-[1.5px] md:border-[#dcdedf] md:p-[2em] md:rounded-[1em]">
           <span className="text-center text-3xl">Log in to Y-Inventory</span>
           <Input
