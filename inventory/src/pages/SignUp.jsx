@@ -58,13 +58,14 @@ export default function SignUp() {
                 type="submit"
               />
               <AccountSeperator />
+              <Link to="/">
               <Button
                 customClass="w-1/2 h-[6vh] bg-white rounded-[2em] text-[#2587be] font-[500] text-lg mt-[1em] border-2 border-[#2587be]"
-                buttonName="Sign Up"
+                buttonName="Sign In"
                 
               />
               <Toaster position="bottom-center" reverseOrder={false} />
-            {/* </Link> */}
+            </Link>
           </form>
         </div>
       </div>
