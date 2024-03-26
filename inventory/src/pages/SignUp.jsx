@@ -5,17 +5,20 @@ import AccountSeperator from "../components/AccountSeperatorSignUp";
 import { Link } from "react-router-dom";
 import {auth} from "../firebase";
 import { createUserWithEmailAndPassword } from "firebase/auth";
+import toast, { Toaster } from "react-hot-toast";
 
 
 export default function SignUp() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const notify = () => toast.success("Successfuly Created Account");
 
   const signUp = (e) => {
     e.preventDefault();
     createUserWithEmailAndPassword(auth, email, password)
     .then((userCredential) =>{
         console.log(userCredential);
+        notify();
     })
     .catch((error) => {
         console.log(error);
@@ -60,6 +63,7 @@ export default function SignUp() {
                 buttonName="Sign Up"
                 
               />
+              <Toaster position="bottom-center" reverseOrder={false} />
             {/* </Link> */}
           </form>
         </div>
