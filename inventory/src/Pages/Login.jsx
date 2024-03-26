@@ -44,13 +44,14 @@ export default function Login() {
               type="password"
               required
             />
-            <Link to="/SignUp">
+            
               <Button
                 customClass="w-full h-[6vh] bg-[#2587be] rounded-[2em] text-white font-[500] text-lg mt-[1.5em]"
                 buttonName="Submit"
                 type="Submit"
               />
               <AccountSeperator />
+              <Link to="/SignUp">
               <Button
                 customClass="w-1/2 h-[6vh] bg-white rounded-[2em] text-[#2587be] font-[500] text-lg mt-[1em] border-2 border-[#2587be]"
                 buttonName="Sign Up"
